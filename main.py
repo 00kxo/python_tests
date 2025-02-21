@@ -1,6 +1,6 @@
 from enum import Enum, auto
 
-
+# enumerations
 class Color(Enum):
     rouge = 0
     bleue = 1
@@ -21,6 +21,7 @@ class DimensionRoue(Enum):
     taille_28_pouces = auto()
 
 
+# classes
 class Roues:
     def __init__(self, nb_de_roue: int, marque_du_pneu: Marque):
         self.nombre = nb_de_roue
